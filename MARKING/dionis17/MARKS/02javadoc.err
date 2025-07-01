@@ -1,0 +1,165 @@
+Loading source file ca/utoronto/utm/assignment1/othello/Move.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloBoard.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSGreedy.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSHuman.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSRandom.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloController.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloControllerRandomVSGreedy.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloControllerRandomVSRandom.java...
+Loading source file ca/utoronto/utm/assignment1/othello/Othello.java...
+Loading source file ca/utoronto/utm/assignment1/othello/OthelloRandomProbability.java...
+Loading source file ca/utoronto/utm/assignment1/othello/PlayerGreedy.java...
+Loading source file ca/utoronto/utm/assignment1/othello/PlayerHuman.java...
+Loading source file ca/utoronto/utm/assignment1/othello/Player.java...
+Loading source file ca/utoronto/utm/assignment1/othello/PlayerRandom.java...
+Constructing Javadoc information...
+Building index for all the packages and classes...
+Standard Doclet version 22.0.1+8-16
+Building tree for all the packages and classes...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/Move.html...
+ca/utoronto/utm/assignment1/othello/Move.java:27: warning: no main description
+	 * @return the row of this move
+	   ^
+ca/utoronto/utm/assignment1/othello/Move.java:35: warning: no main description
+	 * @return the column of this move
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/Othello.html...
+ca/utoronto/utm/assignment1/othello/Othello.java:63: warning: no main description
+	 * @param player P1 or P2
+	   ^
+ca/utoronto/utm/assignment1/othello/Othello.java:88: warning: no main description
+	 * @return whether the game is over (no player can move next)
+	   ^
+ca/utoronto/utm/assignment1/othello/Othello.java:96: warning: no main description
+	 * @return a string representation of the board.
+	   ^
+ca/utoronto/utm/assignment1/othello/Othello.java:126: warning: no description for @param
+	 * @param args
+	   ^
+ca/utoronto/utm/assignment1/othello/Othello.java:20: warning: no comment
+	public static final int DIMENSION = 8; // This is an 8x8 game
+	                        ^
+ca/utoronto/utm/assignment1/othello/Othello.java:19: warning: use of default constructor, which does not provide a comment
+public class Othello {
+       ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloBoard.html...
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:44: warning: no main description
+	 * @return the dimension of the board
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:52: warning: no main description
+	 * @param player either P1 or P2
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:68: warning: no main description
+	 * @param row starting row, in {0,...,dim-1} (typically {0,...,7})
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:82: warning: no main description
+	 * @param row starting row, in {0,...,dim-1} (typically {0,...,7})
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:184: warning: no main description
+	 * @return whether P1,P2 or BOTH have a move somewhere on the board, EMPTY if
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:259: warning: no main description
+	 * @param player P1 or P2
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:355: warning: no description for @param
+	 * @param args
+	   ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:17: warning: no comment
+	public static final char EMPTY = ' ', P1 = 'X', P2 = 'O', BOTH = 'B';
+	                                                          ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:17: warning: no comment
+	public static final char EMPTY = ' ', P1 = 'X', P2 = 'O', BOTH = 'B';
+	                         ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:17: warning: no comment
+	public static final char EMPTY = ' ', P1 = 'X', P2 = 'O', BOTH = 'B';
+	                                      ^
+ca/utoronto/utm/assignment1/othello/OthelloBoard.java:17: warning: no comment
+	public static final char EMPTY = ' ', P1 = 'X', P2 = 'O', BOTH = 'B';
+	                                                ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloController.html...
+ca/utoronto/utm/assignment1/othello/OthelloController.java:10: warning: no comment
+	protected Othello othello;
+	                  ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSGreedy.html...
+ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSGreedy.java:52: warning: no description for @param
+	 * @param args
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSHuman.html...
+ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSHuman.java:48: warning: no description for @param
+	 * @param args
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSRandom.html...
+ca/utoronto/utm/assignment1/othello/OthelloControllerHumanVSRandom.java:53: warning: no description for @param
+	 * @param args
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloControllerRandomVSGreedy.html...
+ca/utoronto/utm/assignment1/othello/OthelloControllerRandomVSGreedy.java:59: warning: no description for @param
+	 * @param args
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloControllerRandomVSRandom.html...
+ca/utoronto/utm/assignment1/othello/OthelloControllerRandomVSRandom.java:62: warning: no description for @param
+	 * @param args
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/OthelloRandomProbability.html...
+ca/utoronto/utm/assignment1/othello/OthelloRandomProbability.java:114: error: @param name not found
+   * @param numGames   the number of games to simulate
+            ^
+ca/utoronto/utm/assignment1/othello/OthelloRandomProbability.java:117: warning: no @param for numgames
+  public void simulateBootstrap(int numgames, int numSamples) {
+              ^
+ca/utoronto/utm/assignment1/othello/OthelloRandomProbability.java:159: warning: no main description
+   * @param dataset the dataset to convert to a string
+     ^
+ca/utoronto/utm/assignment1/othello/OthelloRandomProbability.java:175: warning: no @param for args
+  public static void main(String[] args) {
+                     ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/Player.html...
+ca/utoronto/utm/assignment1/othello/Player.java:16: warning: no description for @param
+   * @param othello
+     ^
+ca/utoronto/utm/assignment1/othello/Player.java:17: warning: no description for @param
+   * @param player
+     ^
+ca/utoronto/utm/assignment1/othello/Player.java:25: warning: no @return
+  public abstract Move getMove();
+                       ^
+ca/utoronto/utm/assignment1/othello/Player.java:9: warning: no comment
+  protected Othello othello;
+                    ^
+ca/utoronto/utm/assignment1/othello/Player.java:10: warning: no comment
+  protected char player;
+                 ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/PlayerGreedy.html...
+ca/utoronto/utm/assignment1/othello/PlayerGreedy.java:29: warning: no description for @param
+	 * @param othello
+	   ^
+ca/utoronto/utm/assignment1/othello/PlayerGreedy.java:30: warning: no description for @param
+	 * @param player
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/PlayerHuman.html...
+ca/utoronto/utm/assignment1/othello/PlayerHuman.java:24: warning: no description for @param
+	 * @param othello
+	   ^
+ca/utoronto/utm/assignment1/othello/PlayerHuman.java:25: warning: no description for @param
+	 * @param player
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/PlayerRandom.html...
+ca/utoronto/utm/assignment1/othello/PlayerRandom.java:21: warning: no description for @param
+	 * @param othello
+	   ^
+ca/utoronto/utm/assignment1/othello/PlayerRandom.java:22: warning: no description for @param
+	 * @param player
+	   ^
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/package-summary.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/ca/utoronto/utm/assignment1/othello/package-tree.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/constant-values.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/overview-tree.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/allclasses-index.html...
+Building index for all classes...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/allpackages-index.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/index-all.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/search.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/index.html...
+Generating /virtual/csc207ta/a1_marking_final/marking/dionis17/doc/help-doc.html...
+1 error
+39 warnings

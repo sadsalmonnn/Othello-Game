@@ -1,0 +1,18 @@
++----------------------------------+---------------------------+
+| Category                         | Mark                    |
++----------------------------------+---------------------------+
+| Commit schedule (00markCommits)  |  4/4                       |
+| JUnit Testing (01junit)          | 3.00/3                       |
+| Java Doc (02javadoc)             | 2.50/3                       |
+| Correctness (03correctness)      | 7.80/9                       |
+| Did you submit something? :-)    |  1/1                       |
++----------------------------------+---------------------------+
+| Total so far                     | 18.30/20                      |
++----------------------------------+---------------------------+
+| Deductions (04deductions)        | -0.5                        |
++----------------------------------+---------------------------+
+| Final A1 Mark                    | 17.80/20                      |
++----------------------------------+---------------------------+
+
+Thank you. For remarks, please see the A1 Results Post on Piazza.
+(No remarks by email to the Prof. or any TAs will be accepted).

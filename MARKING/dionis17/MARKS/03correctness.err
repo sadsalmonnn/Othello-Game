@@ -1,0 +1,61 @@
+Running Starter Junit Tests...
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  ├─[0m [36mOthelloTest[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestGetCount()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestGetWhosTurn()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestIsGameOver()[0m [32m✔[0m
+[36m│  │  └─[0m [34mtestGetWinner()[0m [32m✔[0m
+[36m│  ├─[0m [36mMoveTest[0m [32m✔[0m
+[36m│  │  ├─[0m [34mgetCol()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mgetRow()[0m [32m✔[0m
+[36m│  │  └─[0m [34mtestToString1()[0m [32m✔[0m
+[36m│  └─[0m [36mOthelloBoardTest[0m [32m✔[0m
+[36m│     ├─[0m [34mtestGetCount()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestGet()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestOthelloBoard()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestMove()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestGetDimension()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestHasMove()[0m [32m✔[0m
+[36m│     └─[0m [34mtestOtherPlayer()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Running Hidden Junit Tests...
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  ├─[0m [36mPlayerHumanTest[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestValidInput()[0m [32m✔[0m
+[36m│  │  └─[0m [34mtestInvalidInputThenValid()[0m [32m✔[0m
+[36m│  ├─[0m [36mPlayerGreedyTest[0m [32m✔[0m
+[36m│  │  ├─[0m [31mtestGreedyPlayerEfficientMove()[0m [31m✘[0m [31mGreedyPlayer should move to (3,5) ==> expected: <(3,5)> but was: <(2,1)>[0m
+[36m│  │  └─[0m [34mtestGreedyPlayerTieBreakerOnRow()[0m [32m✔[0m
+[36m│  ├─[0m [36mPlayerRandomTest[0m [32m✔[0m
+[36m│  │  ├─[0m [31mtestGetMoveWithNoPossibleMoves()[0m [31m✘[0m [31mPlayerRandom should generate different moves in different calls. ==> expected: <true> but was: <false>[0m
+[36m│  │  └─[0m [31mtestGetMoveWithTwoPossibleMoves()[0m [31m✘[0m [31mPlayerRandom should generate different moves in different calls. ==> expected: <true> but was: <false>[0m
+[36m│  ├─[0m [36mHiddenTests[0m [32m✔[0m
+[36m│  │  ├─[0m [34mvalidVsInvalid()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestgetCount()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mp2Wins()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestgetPlayer()[0m [32m✔[0m
+[36m│  │  ├─[0m [34mtestNoWinner()[0m [32m✔[0m
+[36m│  │  └─[0m [34mplayerhasMove()[0m [32m✔[0m
+[36m│  └─[0m [36mOthelloBoardSizeTest[0m [32m✔[0m
+[36m│     ├─[0m [34mtestInitialSetupOnLargeBoard()[0m [32m✔[0m
+[36m│     └─[0m [34mtestInitialSetupOnSmallBoard()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Failures (3):
+  JUnit Jupiter:PlayerGreedyTest:testGreedyPlayerEfficientMove()
+    MethodSource [className = 'ca.utoronto.utm.assignment1.othello.PlayerGreedyTest', methodName = 'testGreedyPlayerEfficientMove', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: GreedyPlayer should move to (3,5) ==> expected: <(3,5)> but was: <(2,1)>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+Running Hidden Controller Tests...
+Timeout for OthelloControllerHumanVSGreedy

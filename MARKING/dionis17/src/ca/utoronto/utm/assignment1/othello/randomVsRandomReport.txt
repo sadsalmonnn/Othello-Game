@@ -1,0 +1,22 @@
+RandomVSRandom Report
+
+1) What is your conclusion, does the first or second player have some advantage, at least for a random strategy?
+The second player has some advantage, at least for a random strategy.
+
+2) Watch https://www.youtube.com/watch?v=Iq9DzN6mvYA
+
+3) Briefly write your thoughts on the above video below:
+In Jake Vanderplas's presentation about statistics for hackers, he mainly discusses four different approaches to statistics, that is direct simulation, shuffling, bootstrapping, and cross validation. In each of the methods, he shows various charts and complicated equations only for the audience, especially me, to forget the original question. The direct simulation approach seemed quite straight forward and resonates with our assignment the most because we use code to, essentially, simulate and calculate different probabilties. This approach is noticeably simple as he even states, "so we've just done in five lines of Python code, what we did previously in a few slides of mathematics." Although the method of direct simulation can be quite accurate and efficient, I find that there are some cases where simulating cases may be difficult to set up.
+
+4) H0 is each player has a 50% chance of winning.
+
+5) Ha is player 2 has a greater chance than player 1 to win.
+
+6) Choose one of the following and delete the other:
+My experimental results do not support H0, so they support Ha
+
+7) As in the video, use either math or code (add a Java Class) to argue for or against H0
+In my OthelloRandomProbability class, I simulated a statistical method, Bootstrapping with resampling. This is done by collecting a distribution of probabilties, created from n amount of games each (in this case n = 10000 games), and this distribution has a size of n amount of samples (in this case n = 20 samples). This distribution list of probabilities is then resampled and the mean is calculated for each player 1 and player 2, when the game makes random decisions. The data that has been calculated states that the mean probability of p1 winning is approximately 46% and the mean probability of p2 winning is approximately 49%. Here we can see from our statistical analysis, that player 2 has a greater chance than player 1 to win, hence I argue that since my results and calculations support Ha, I am against H0.
+
+References: 
+https://www.thoughtco.com/null-hypothesis-vs-alternative-hypothesis-3126413
